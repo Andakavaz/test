@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: square;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th {
+            background-color: orange;
+            color: white;
+            padding: 10px;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Pupang VET Centre Logo" height="100">
+        <h1>Home Page for Pupang TVET Centre</h1>
+    </header>
+
+    <nav>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Product</a>
+    </nav>
+
+    <section>
+        <p>Welcome all! Come and register yourself to enroll here.</p>
+		
+		<p><h2>Courses offered here at PUPANG TVET CENTRE</h2></p>
+        <ul>
+            <li>Certificate in basic computing</li>
+            <li>Certificate in carpentry</li>
+        </ul>
+    </section>
+
+    <section>
+        <table>
+            <tr>
+                <th>Teachers</th>
+                <th>Positions</th>
+                <th>Contacts</th>
+            </tr>
+            <tr>
+                <td>Mr. R. Dizon</td>
+                <td>Manager</td>
+                <td>+675 79669210</td>
+            </tr>
+            <tr>
+                <td>Mr. N. Maso</td>
+                <td>Subject Master</td>
+                <td>+675 79669102</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        Thank you very much for your visit. Come again another time.
+    </footer>
+
+</body>
+</html>
